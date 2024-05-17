@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analisador de Complexidade de Senha</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Analisador de Complexidade de Senha</h2>
+      <p>Digite uma senha para avaliar sua funcionabilidade:</p>
+      <input
+        type="password"
+        id="passwordInput"
+        placeholder="Digite sua senha"
+      />
+      <div class="password-strength-bar">
+        <div id="password-strength-indicator" class="strength-indicator"></div>
+      </div>
+      <p id="password-strength-text"></p>
+      <p id="tip">
+        É necessário que sua senha contenha letras em caixa baixa e alta, algarismos e símbolos especiais.
+      </p>
+    </div>
+  </body>
+</html>
